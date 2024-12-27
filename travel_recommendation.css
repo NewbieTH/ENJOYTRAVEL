@@ -1,0 +1,210 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-image: url('image/img_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+#navbar {
+    background-color: rgba(31, 32, 33, 0.9); 
+    color: white;                           
+    width: 100%;     
+    display: flex;
+    align-items: center
+}
+#brand{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px; 
+    color: #b54805; 
+}
+#menubar{
+   
+    margin-left: 20px; 
+}
+#menubar a{
+    padding:20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+}
+#searchbar{
+    margin-left: 850px; 
+}
+
+#searchbar input{
+    padding:10px;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 300px; 
+}
+#searchBtn{   
+    padding: 10px; 
+    background-color: #b54805; 
+    color: white; 
+    border: none; 
+    border-radius: 10px; 
+    font-size: 16px; 
+    font-weight: bold;
+    cursor: pointer;  
+    margin-left: 10px;     
+}
+#clearBtn{   
+    padding: 10px; 
+    background-color: #b54805; 
+    color: white; 
+    border: none; 
+    border-radius: 10px; 
+    font-size: 16px; 
+    font-weight: bold;
+    cursor: pointer;   
+    margin-left: 10px; 
+    margin-right: 20px;      
+}
+.intro h1{
+    color: white !important; 
+    font-size: 60px; 
+    font-weight: bold;
+    margin-top: 200px; 
+}
+.intro p{
+    color: white !important; 
+    font-size: 30px; 
+    margin-top: 50px; 
+}
+section {
+    display: none;
+}
+
+/* Show the active section */
+section.active {
+    display: block;
+}
+
+.destinationDiv{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+
+}
+.name{
+    padding-left: 10px;
+    color: rgb(32, 32, 32) !important; 
+    font-size: 25px !important; 
+    font-weight: bold;
+}
+.description{
+    padding-left: 10px;
+    color: rgba(45, 36, 36, 0.64) !important; 
+    font-size: 18px !important; 
+}
+
+
+#homeDiv {
+    position: relative; /* Needed for absolute positioning */
+    padding: 40px;
+}
+
+#displayDiv {
+    position: absolute; /* Removes it from the normal flow */
+    right: 500px; /* Moves it 20px from the right edge of #homeDiv */
+    top: 30%; /* Center it vertically relative to #homeDiv */
+    transform: translateY(-50%); /* Adjust for perfect vertical centering */
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+#aboutDiv {
+    position: relative; /* Needed for absolute positioning */
+    padding: 40px;
+}
+#profileDiv{
+    position: absolute; 
+    right: 300px; 
+    top: 30%; 
+    transform: translateY(-50%); 
+    margin-top: 200px;
+    background-color: rgba(31, 32, 33, 0.9); 
+    width: 300px;
+    height: 450px;
+
+}
+
+#profilename{
+    padding-left: 10px;
+    color: rgb(252, 131, 79) !important; 
+    font-size: 25px !important; 
+    font-weight: bold;
+
+}
+#profileposition{
+    padding-left: 10px;
+    color: rgb(255, 255, 255) !important; 
+    font-size: 20px !important; 
+    font-weight: bold;
+}
+
+#contactDiv{
+    position: relative; /* Needed for absolute positioning */
+    padding: 40px;
+}
+#formDiv{
+    position: absolute; 
+    right: 100px; 
+    top: 30%; 
+    transform: translateY(-50%); 
+    margin-top: 200px;
+    width: 600px;
+    height: 350px;
+}
+
+.smallinput{
+    padding:10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 400px; 
+}
+#emailinput{
+    padding:10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 400px; 
+}
+#helpinput{
+    padding:10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 400px; 
+    height: 100px;
+}
+#submitBtn{
+    padding: 10px; 
+    background-color: #b54805; 
+    color: white; 
+    border: none; 
+    border-radius: 10px; 
+    font-size: 16px; 
+    font-weight: bold;
+    cursor: pointer;  
+}
+.visitBtn{
+    padding: 10px; 
+    background-color: #b54805; 
+    color: white; 
+    border: none; 
+    border-radius: 10px; 
+    font-size: 16px; 
+    font-weight: bold;
+    cursor: pointer;  
+    margin-left: 10px;
+}

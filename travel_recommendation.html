@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DELIGHT</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+    <div id="top"></div>
+        <div id="navbar">
+            <p id=brand>DELIGHT</p> 
+            <nav id="menubar">
+                <a onclick="changewebpage('home')" >Home</a>
+                <a onclick="changewebpage('about')">About Us</a>
+                <a onclick="changewebpage('contact')">Contact Us</a>
+            </nav>
+            <div id="searchbar">
+                <input type="text" id="searchInput" placeholder="Enter the destination or keyword">
+                <button id="searchBtn">Search</button>
+                <button id="clearBtn">Clear</button>
+            </div>
+        </div>
+        <section id="home">
+            <div id="homeDiv" class="pageDiv">
+                <article class="intro">
+                    <h1>EXPERIENCE THE BEAUTY<br>AROUND THE WORLD</h1>
+                    <p>It provides a convinence for selecting and booking the destination,<br> while it's recommend destination you should to visit in this lifetime</p>
+                </article>
+                <div id="displayDiv"></div>
+            </div>
+        </section>
+        <section id="about">
+            <div id="aboutDiv" class="pageDiv">
+                <article class="intro">
+                    <h1>About Us</h1>
+                    <p>We provice best solution for your trip </p>
+                </article>
+                <div id="profileDiv">     
+                    <img id=profile src="image/person.png" width="300" height="300" >  
+                    <p id="profilename">Mr.Paniti Virojwongchai</p>
+                    <p id="profileposition">CEO</p>
+                </div>
+                
+            </div>
+        </section>
+        <section id="contact">
+            <div id="contactDiv" class="pageDiv">
+                <article class="intro">
+                    <h1>Contact Us</h1>
+                    <p>Need to get in touch with us? <br>Fill out the form with your inquiry </p>
+                </article>
+                <div id="formDiv">
+                    <input type="text" id = "nameinput" class="smallinput" placeholder="Name">
+                    <input type="text" id = "surnameinput"class="smallinput" placeholder="Surname"><br>
+                    <input type="text" id = "emailinput" placeholder="Email"><br>
+                    <input type="text" id = "helpinput" placeholder="What can we help you with?"><br>
+                    <button id="submitBtn">Submit</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./travel_recommendation.js"></script>
+</body>
+</html> 
